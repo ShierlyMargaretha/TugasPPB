@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "484393897631",
+    "project_id": "aplikasi-teman-a2efc",
+    "storage_bucket": "aplikasi-teman-a2efc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484393897631:android:dfdf8a517c401cc1795caa",
+        "android_client_info": {
+          "package_name": "com.example.aplikasiteman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484393897631-q6oik42r0b7pghmsbedkvls8k3pe56jc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aplikasiteman",
+            "certificate_hash": "bdf18cd239ea5afa8cc0930129fd8a369ee68bf6"
+          }
+        },
+        {
+          "client_id": "484393897631-m2lkmcsoei90udn5dgupne6na2l25o5m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB5KpHIIawkfRHajSgMOKZkEvX8p-7SK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484393897631-m2lkmcsoei90udn5dgupne6na2l25o5m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
