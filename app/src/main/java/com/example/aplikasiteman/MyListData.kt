@@ -49,6 +49,7 @@ class MyListData : AppCompatActivity() {
             .addValueEventListener(object : ValueEventListener {
                 override fun onDataChange(dataSnapshot: DataSnapshot) {
                 if (dataSnapshot.exists()){
+                    DataTeman.clear()
                     for (snapshot in dataSnapshot.children) {
                         //mapping data pada DataSnapshot ke dalam objek DataTeman
                         val teman = snapshot.getValue(data_teman::class.java)
