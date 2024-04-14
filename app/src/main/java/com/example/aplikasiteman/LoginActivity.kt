@@ -21,7 +21,7 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.progress.visibility
+        binding.progress.visibility = View.GONE
         binding.login.setOnClickListener(this)
         auth = FirebaseAuth.getInstance()
 
@@ -42,7 +42,6 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
             if (resultCode == Activity.RESULT_OK) {
                 val user = FirebaseAuth.getInstance().currentUser
                 Toast.makeText(this, "Login Berhasil", Toast.LENGTH_SHORT).show()
-                intent = Intent(applicationContext, MainActivity::class.java)
                 startActivity(intent)
                 finish()
             } else {

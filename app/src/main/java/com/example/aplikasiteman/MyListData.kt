@@ -25,7 +25,6 @@ class MyListData : AppCompatActivity() {
     val database = FirebaseDatabase.getInstance()
     private var DataTeman = ArrayList<data_teman>()
     private var auth: FirebaseAuth? = null
-
     private lateinit var binding: ActivityMyListDataBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
